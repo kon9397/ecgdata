@@ -1,0 +1,123 @@
+.nav-color {
+    background-color:rgb(241, 248, 255);
+}
+a.brand-logo{
+    display:flex;
+    align-items:center;
+}
+.nav-wrapper a {
+    color:#ffffff;
+}
+
+.navbar-fixed {
+    position:fixed;
+    top:0;
+}
+
+.color-links {
+    color:black;
+}
+.news {
+    padding:100px 0;
+}
+
+.news .row.valign-wrapper {
+    margin-bottom:60px;
+}
+
+.news__subtitle, .news__title {
+    margin:0;
+    text-transform:uppercase;
+}
+
+.news__subtitle {
+    font-size:14px;
+}
+
+.news__title {
+    font-size:30px;
+}
+
+.card__image {
+    width:100%;
+}
+
+.card__title {
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.card__author, .card__date {
+    font-size:14px;
+    margin-right:30px;
+}
+
+.card__link {
+    text-transform: uppercase;
+}
+
+footer h5 {
+    font-size:15px;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+footer a {
+    color:#a9b7c6;
+}
+
+footer a:hover {
+    color:#ffffff;
+}
+
+hr {
+    opacity:0.1;
+}
+
+.subscribe-email {
+    width:76% !important;
+    background-color:#3f4e5f !important;
+    color:white;
+}
+
+.subscribe-submit {
+    padding:6% 10%;
+    background-position: center center !important;
+    background-size: cover !important;
+    border:none;
+}
+
+@media screen and (max-width: 1024px) {
+    .advantage__img{
+        float: left;
+        padding: 3%;
+        vertical-align:middle;
+    }
+    .call .container {
+        flex-direction: column;
+    }
+
+    .call__button, .call__text,.call__number {
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    footer h5 {
+        font-size:15px;
+        margin-top:20px;
+        margin-bottom:30px;
+    }
+
+    footer .col.l3.m6.s12 {
+        height:270px;
+    }
+    .registration__btns {
+        display:flex;
+        flex-direction:column;
+        width:30%;
+    }
+
+}

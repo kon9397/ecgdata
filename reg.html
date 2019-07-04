@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/materialize.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/reg1.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="main-header">
+    <div class="navbar-fixed">
+        <nav class="nav-color">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo"><img src="./img/logo.png" height="50" width="50" alt=""> </a>
+                    <a href="index.html" class="brand-logo">ECGData</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="doctors.html">ДОКТОРЫ</a>
+                        </li>
+                        <li>
+                            <a href="news.html">НОВОСТИ</a>
+                        </li>
+                        <li>
+                            <a href="#">ОТВЕТЫ</a>
+                        </li>
+                        <li>
+                            <a href="#">КОНТАКТЫ</a>
+                        </li>
+                        <li>
+                            <a href="reg.html">ВОЙТИ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </div>
+
+     <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">О НАС</a></li>
+        <li><a href="#">НОВОСТИ</a></li>
+        <li><a href="#">СОБЫТИЯ</a></li>
+        <li><a href="#">КОНТАКТЫ</a></li>
+        <li><a href="#">ВОЙТИ</a></li>
+    </ul>
+</header>
+
+<section class="form-bg">
+    <div class="form">
+    
+            <div class="form__networks">
+                <h3 class="registration__form--title">регистрация нового аккаунта</h3>
+                <form action="">
+                    <input type="text" name="login" placeholder="Логин">
+                    <input type="email" name="email" id="email" placeholder="Ваш email">
+                    <input type="password" name="password" placeholder="password">
+                    <input type="password" name="password" placeholder="repeat_password">
+                    <button class="btn submit">Регистрация</button>
+                    <div class="registration__btns">
+                            <a href="#"></a>
+                            <img src="./img/twitter.png" width="44" height="44" alt="">
+                             </a>
+                            <a href="#">
+                            <img src="./img/facebook.png" width="44" height="44"  alt="">
+                            </a>
+                            <a href="#">
+                            <img src="./img/google.png" width="44" height="44" alt="">
+                             </a>
+                        </div>
+                        <hr>
+                </form>  
+                
+    </div>
+</section>
+
+
+<section class="call blue white-text">
+    <div class="container">
+        <div class="call__text">
+            <h3 class="call__title">Свяжитесь с нами</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="call__button">
+            <button class="btn waves-effect waves-light white blue-text">ПОЗВОНИТЬ</button>
+        </div>
+        <div class="call__number">
+            <i class="material-icons left">call</i>
+            <h3>Связаться по номеру</h3>
+            <h2>093 345 12 11</h2>
+        </div>
+    </div>
+</section>
+
+<footer class="blue-grey darken-2 white-text">
+    <div class="container">
+        <div class="row">
+            <div class="col l3 m6 s12">
+                <h5>Быстрые ссылки</h5>
+                <div class="row">
+                    <ul class="col m6">
+                        <li><a href="">Доктора</a></li>
+                        <li><a href="">Возможности</a></li>
+                        <li><a href="">Галерея</a></li>
+                        <li><a href="">Отзывы</a></li>
+                    </ul>
+                    <ul class="col m6">
+                        <li><a href="">Правила и политика использования</a></li>
+                        <li><a href="">Поиск</a></li>
+                        <li><a href="">Карта сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col l3 m6 s12">
+                <h5>Подписаться на рассылку</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <form>
+                    <input type="email" class="subscribe-email" name="email" placeholder="E-mail Address">
+                    <input type="submit" value=" " class="subscribe-submit" style="background:url(./img/subscribe.png) no-repeat;" />
+                </form>
+            </div>
+            <div class="col l3 m6 s12">
+                <h5>Время работы:</h5>
+                <table>
+                    <tr>
+                        <td>Понедельник-Пятница</td>
+                        <td>9:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Суббота</td>
+                        <td>9:00 - 16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Воскресенье</td>
+                        <td>9:00 - 14:00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col l3 m6 s12">
+                <h5>Связаться с нами</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Телефон: +380933451211</p>
+                <p>E-mail: info@ecgdata.ru</p>
+            </div>
+        </div>
+        <hr>
+        <p class="center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta dignissimos odit aperiam?
+        </p>
+    </div>
+</footer>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/materialize.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
